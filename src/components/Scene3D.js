@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Sphere, Text } from '@react-three/drei';
-import * as THREE from 'three';
+
 
 function FloatingHeart({ position, color, onClick }) {
   const mesh = useRef();
